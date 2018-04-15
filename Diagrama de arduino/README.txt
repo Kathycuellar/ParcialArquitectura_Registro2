@@ -1,0 +1,1 @@
+el archivo .fzz es de fritzzing
