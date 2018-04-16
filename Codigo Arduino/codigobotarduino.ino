@@ -2,8 +2,11 @@ int alarma = 9;
 int activar_alarma = 2;
 
 void setup() {
+
   pinMode(alarma, INPUT_PULLUP);
+
   pinMode(activar_alarma, OUTPUT);
+  digitalWrite(activar_alarma, HIGH);
   Serial.begin(9600);
 }
 
